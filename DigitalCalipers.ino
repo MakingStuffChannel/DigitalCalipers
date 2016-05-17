@@ -28,7 +28,6 @@ void setup() {
  
   pinMode(clockPin, INPUT);  
   pinMode(dataPin, INPUT); 
-  pinMode(triggerPin, INPUT);
   
   //We have to take the value on the RISING edge instead of FALLING
   //because it is possible that the first bit will be missed and this
